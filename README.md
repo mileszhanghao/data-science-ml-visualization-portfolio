@@ -29,12 +29,20 @@ Machine learning workflow for predicting learner certification from behavioral a
 
 PyTorch image-classification experiments comparing linear, multilayer, convolutional, and regularized CNN architectures. The public version includes reusable model definitions and a training loop.
 
+### Local Circuit Connectivity Modeling
+
+`scientific-computing/local-circuit-modeling/`
+
+Scientific-computing project modeling how local circuit connectivity affects impulse-response dynamics. The public version includes NumPy/Pandas utilities for connectivity matrices, randomized controls, Euler simulation, parameter sweeps, and reciprocal-motif analysis.
+
 ## Technical Capabilities
 
 - Python
 - pandas
+- NumPy
 - scikit-learn
 - PyTorch
+- scientific computing
 - ROC/AUC evaluation
 - Visualization specifications and dashboard/report design
 - Data ethics and misleading analytics review
