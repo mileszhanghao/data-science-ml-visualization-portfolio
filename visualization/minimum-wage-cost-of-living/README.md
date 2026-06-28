@@ -6,6 +6,7 @@ Collaborative visual analytics project comparing minimum wage against cost-of-li
 
 - `project-report.pdf`: final visual report.
 - `dashboard-architecture.md`: portfolio-safe summary of the data model, linked views, and dashboard interaction design.
+- `observable-prototype-notes.md`: notes from the private Observable prototype without publishing course/team data files.
 
 ## Project Scope
 

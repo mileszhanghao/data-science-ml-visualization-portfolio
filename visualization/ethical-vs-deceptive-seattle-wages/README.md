@@ -9,6 +9,7 @@ Visual analytics case study comparing trustworthy and intentionally misleading r
 - `deceptive-visualization.pdf`: intentionally misleading visualization using maximum hourly rate and distorted axis choices.
 - `specs/ethical_average_hourly_rate.vl.json`: cleaned Vega-Lite spec for the trustworthy chart.
 - `specs/deceptive_max_hourly_rate.vl.json`: cleaned Vega-Lite spec for the intentionally misleading chart.
+- `observable-source-notes.md`: notes from the Observable source notebook and public Socrata data endpoint.
 
 ## Skills Demonstrated
 
