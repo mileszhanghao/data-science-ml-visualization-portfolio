@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Average Hourly Rate by Department in Seattle",
+  "description": "Trustworthy comparison using mean hourly rate, clear labels, and a zero-based quantitative axis.",
+  "data": {
+    "url": "https://data.seattle.gov/resource/2khk-5ukd.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "department",
+      "type": "nominal",
+      "title": "Department",
+      "sort": "-y",
+      "axis": {
+        "labelAngle": -45
+      }
+    },
+    "y": {
+      "field": "hourly_rate",
+      "type": "quantitative",
+      "aggregate": "mean",
+      "title": "Average hourly rate (USD)",
+      "scale": {
+        "zero": true
+      }
+    },
+    "color": {
+      "field": "department",
+      "type": "nominal",
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "department",
+        "type": "nominal",
+        "title": "Department"
+      },
+      {
+        "field": "hourly_rate",
+        "type": "quantitative",
+        "aggregate": "mean",
+        "title": "Mean hourly rate",
+        "format": "$.2f"
+      }
+    ]
+  },
+  "width": 720,
+  "height": 420
+}

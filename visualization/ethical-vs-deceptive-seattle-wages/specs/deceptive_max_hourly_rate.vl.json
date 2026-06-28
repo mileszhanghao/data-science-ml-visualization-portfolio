@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Hourly Rates in Seattle: Are Some Departments Overpaid?",
+  "description": "Intentionally misleading critique artifact using maximum hourly rate and a truncated axis.",
+  "data": {
+    "url": "https://data.seattle.gov/resource/2khk-5ukd.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "department",
+      "type": "nominal",
+      "title": "Department",
+      "sort": "-y",
+      "axis": {
+        "labelAngle": -45
+      }
+    },
+    "y": {
+      "field": "hourly_rate",
+      "type": "quantitative",
+      "aggregate": "max",
+      "title": "Highest observed hourly rate (USD)",
+      "scale": {
+        "zero": false
+      }
+    },
+    "color": {
+      "field": "department",
+      "type": "nominal",
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "department",
+        "type": "nominal",
+        "title": "Department"
+      },
+      {
+        "field": "hourly_rate",
+        "type": "quantitative",
+        "aggregate": "max",
+        "title": "Maximum hourly rate",
+        "format": "$.2f"
+      }
+    ]
+  },
+  "width": 720,
+  "height": 420
+}

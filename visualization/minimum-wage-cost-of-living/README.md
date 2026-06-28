@@ -5,6 +5,7 @@ Collaborative visual analytics project comparing minimum wage against cost-of-li
 ## Portfolio Files
 
 - `project-report.pdf`: final visual report.
+- `dashboard-architecture.md`: portfolio-safe summary of the data model, linked views, and dashboard interaction design.
 
 ## Project Scope
 
@@ -13,3 +14,7 @@ The project explores whether workers earning minimum wage can afford essential e
 ## Collaboration Note
 
 This was collaborative work. The public portfolio version presents it as a team project rather than an individual-only project.
+
+## Product Framing
+
+The project is positioned as a policy analytics dashboard: merge multiple public economic datasets, expose region and year controls, and use linked charts to compare wage growth against food, housing, and living-cost pressure.
