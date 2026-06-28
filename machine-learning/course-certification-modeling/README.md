@@ -1,6 +1,6 @@
-# Course Certification Modeling
+# Learner Certification Prediction
 
-Machine learning workflow for predicting whether online learners earn course certification from activity features.
+Machine learning workflow for predicting whether online learners earn certification from activity features.
 
 ## Modeling Approach
 
@@ -22,5 +22,4 @@ Machine learning workflow for predicting whether online learners earn course cer
 
 ## Publication Note
 
-The original notebook contained course instructions and restricted materials, so it is not published here. This README records the portfolio-safe technical summary of the work.
-
+The original notebook contained restricted source material, so it is not published here. This README records the portfolio-safe technical summary of the work.

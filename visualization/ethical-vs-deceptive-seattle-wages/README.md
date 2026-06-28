@@ -1,6 +1,6 @@
-# Ethical vs. Deceptive Seattle Wage Visualization
+# Visual Trust and Misleading Analytics
 
-Vega-Lite/Observable visualization exercise comparing ethical and intentionally misleading representations of City of Seattle wage data.
+Visual analytics case study comparing trustworthy and intentionally misleading representations of City of Seattle wage data.
 
 ## Portfolio Files
 
@@ -11,8 +11,7 @@ Vega-Lite/Observable visualization exercise comparing ethical and intentionally 
 ## Skills Demonstrated
 
 - Data ethics and visual rhetoric.
-- Vega-Lite chart specification.
+- Chart specification and visual encoding.
 - Public-sector wage data exploration.
 - Aggregation choice and axis-scale reasoning.
 - Written explanation of visualization tradeoffs.
-

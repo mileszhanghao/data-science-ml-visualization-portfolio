@@ -1,6 +1,6 @@
 # Minimum Wage vs. Cost of Living
 
-Group visualization project comparing minimum wage against cost-of-living indicators across U.S. regions.
+Collaborative visual analytics project comparing minimum wage against cost-of-living indicators across U.S. regions.
 
 ## Portfolio Files
 
@@ -12,5 +12,4 @@ The project explores whether workers earning minimum wage can afford essential e
 
 ## Collaboration Note
 
-This was a group project. The public portfolio version presents it as collaborative work rather than an individual-only project.
-
+This was collaborative work. The public portfolio version presents it as a team project rather than an individual-only project.

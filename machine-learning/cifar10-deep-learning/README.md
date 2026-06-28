@@ -30,5 +30,4 @@ The work compared a progression of models:
 
 ## Publication Note
 
-The original notebook contained course instructions and explicit redistribution restrictions, so it is not published here. This README keeps only the portfolio-safe technical summary.
-
+The original notebook contained restricted source material, so it is not published here. This README keeps the portfolio-safe technical summary.
