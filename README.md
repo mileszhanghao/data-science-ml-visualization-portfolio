@@ -21,13 +21,13 @@ The portfolio writeup now documents the dashboard architecture, linked views, an
 
 `machine-learning/course-certification-modeling/`
 
-Machine learning workflow for predicting learner certification from behavioral activity features. The public summary documents feature engineering, class imbalance handling, model comparison, and ROC/AUC evaluation.
+Machine learning workflow for predicting learner certification from behavioral activity features. The public version includes a cleaned scikit-learn pipeline for feature engineering, class imbalance handling, model comparison, and ROC/AUC evaluation.
 
 ### CIFAR-10 Deep Learning Experiments
 
 `machine-learning/cifar10-deep-learning/`
 
-PyTorch image-classification experiments comparing linear, multilayer, convolutional, and regularized CNN architectures. The public summary documents model design and evaluation tradeoffs.
+PyTorch image-classification experiments comparing linear, multilayer, convolutional, and regularized CNN architectures. The public version includes reusable model definitions and a training loop.
 
 ## Technical Capabilities
 

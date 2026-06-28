@@ -2,6 +2,11 @@
 
 PyTorch experiments comparing neural-network architectures for CIFAR-10 image classification.
 
+## Public Artifacts
+
+- `cifar10_models.py` contains a cleaned, portfolio-safe rewrite of the model architecture progression and training loop.
+- The original notebook, course prompts, and grading-specific output are not published.
+
 ## Experiment Design
 
 The work compared a progression of models:
@@ -30,4 +35,4 @@ The work compared a progression of models:
 
 ## Publication Note
 
-The original notebook contained restricted source material, so it is not published here. This README keeps the portfolio-safe technical summary.
+The original notebook contained restricted source material, so it is not published here. This directory keeps the reusable model code and a portfolio-safe technical summary.
