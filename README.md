@@ -35,6 +35,12 @@ PyTorch image-classification experiments comparing linear, multilayer, convoluti
 
 Scientific-computing project modeling how local circuit connectivity affects impulse-response dynamics. The public version includes NumPy/Pandas utilities for connectivity matrices, randomized controls, Euler simulation, parameter sweeps, and reciprocal-motif analysis.
 
+### Numerical Linear Algebra Toolkit
+
+`scientific-computing/numerical-linear-algebra-toolkit/`
+
+Applied numerical-methods project collecting reusable NumPy implementations for least squares, conditioning, eigenvalue approximation, iterative linear solves, and matrix diagnostics. This adds a public AMATH-style numerical analysis artifact without exposing private homework prompts.
+
 ## Technical Capabilities
 
 - Python
@@ -43,6 +49,7 @@ Scientific-computing project modeling how local circuit connectivity affects imp
 - scikit-learn
 - PyTorch
 - scientific computing
+- numerical linear algebra
 - ROC/AUC evaluation
 - Visualization specifications and dashboard/report design
 - Data ethics and misleading analytics review

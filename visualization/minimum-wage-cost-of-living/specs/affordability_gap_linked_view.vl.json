@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Portfolio-safe Vega-Lite pattern for comparing minimum wage with selected cost-of-living categories.",
+  "data": {
+    "values": [
+      {"region": "Seattle, WA", "year": 2025, "category": "Housing", "monthly_cost": 1850, "monthly_wage_income": 2800},
+      {"region": "Seattle, WA", "year": 2025, "category": "Food", "monthly_cost": 430, "monthly_wage_income": 2800},
+      {"region": "Seattle, WA", "year": 2025, "category": "Transportation", "monthly_cost": 310, "monthly_wage_income": 2800},
+      {"region": "Austin, TX", "year": 2025, "category": "Housing", "monthly_cost": 1450, "monthly_wage_income": 2120},
+      {"region": "Austin, TX", "year": 2025, "category": "Food", "monthly_cost": 390, "monthly_wage_income": 2120},
+      {"region": "Austin, TX", "year": 2025, "category": "Transportation", "monthly_cost": 360, "monthly_wage_income": 2120}
+    ]
+  },
+  "transform": [
+    {
+      "calculate": "datum.monthly_wage_income - datum.monthly_cost",
+      "as": "affordability_gap"
+    },
+    {
+      "calculate": "datum.monthly_cost / datum.monthly_wage_income",
+      "as": "cost_share"
+    }
+  ],
+  "params": [
+    {
+      "name": "region_select",
+      "select": {"type": "point", "fields": ["region"]},
+      "bind": "legend"
+    }
+  ],
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "category",
+      "type": "nominal",
+      "title": "Cost category"
+    },
+    "y": {
+      "field": "cost_share",
+      "type": "quantitative",
+      "axis": {"format": "%"},
+      "title": "Share of monthly minimum-wage income"
+    },
+    "color": {
+      "field": "region",
+      "type": "nominal",
+      "title": "Region"
+    },
+    "opacity": {
+      "condition": {"param": "region_select", "value": 1},
+      "value": 0.35
+    },
+    "tooltip": [
+      {"field": "region", "type": "nominal"},
+      {"field": "category", "type": "nominal"},
+      {"field": "monthly_cost", "type": "quantitative", "format": "$,.0f"},
+      {"field": "monthly_wage_income", "type": "quantitative", "format": "$,.0f"},
+      {"field": "affordability_gap", "type": "quantitative", "format": "$,.0f"},
+      {"field": "cost_share", "type": "quantitative", "format": ".1%"}
+    ]
+  }
+}

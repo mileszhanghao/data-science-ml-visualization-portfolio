@@ -7,6 +7,8 @@ Collaborative visual analytics project comparing minimum wage against cost-of-li
 - `project-report.pdf`: final visual report.
 - `dashboard-architecture.md`: portfolio-safe summary of the data model, linked views, and dashboard interaction design.
 - `observable-prototype-notes.md`: notes from the private Observable prototype without publishing course/team data files.
+- `observable-source-map.md`: public reconstruction of the Observable notebook structure.
+- `specs/affordability_gap_linked_view.vl.json`: cleaned Vega-Lite linked-view pattern for affordability comparison.
 
 ## Project Scope
 
